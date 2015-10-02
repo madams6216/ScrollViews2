@@ -14,6 +14,12 @@
 		76EB0A8D1BBEE30400F332E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76EB0A8B1BBEE30400F332E4 /* LaunchScreen.storyboard */; };
 		76EB0A981BBEE30400F332E4 /* ScrollViews2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EB0A971BBEE30400F332E4 /* ScrollViews2Tests.swift */; };
 		76EB0AA31BBEE30400F332E4 /* ScrollViews2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EB0AA21BBEE30400F332E4 /* ScrollViews2UITests.swift */; };
+		76EB0AB71BBEE31B00F332E4 /* photo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EB0AB11BBEE31B00F332E4 /* photo1.png */; settings = {ASSET_TAGS = (); }; };
+		76EB0AB81BBEE31B00F332E4 /* photo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EB0AB21BBEE31B00F332E4 /* photo2.png */; settings = {ASSET_TAGS = (); }; };
+		76EB0AB91BBEE31B00F332E4 /* photo3.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EB0AB31BBEE31B00F332E4 /* photo3.png */; settings = {ASSET_TAGS = (); }; };
+		76EB0ABA1BBEE31B00F332E4 /* photo4.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EB0AB41BBEE31B00F332E4 /* photo4.png */; settings = {ASSET_TAGS = (); }; };
+		76EB0ABB1BBEE31B00F332E4 /* photo5.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EB0AB51BBEE31B00F332E4 /* photo5.png */; settings = {ASSET_TAGS = (); }; };
+		76EB0ABC1BBEE31B00F332E4 /* slow.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EB0AB61BBEE31B00F332E4 /* slow.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		76EB0A9E1BBEE30400F332E4 /* ScrollViews2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViews2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76EB0AA21BBEE30400F332E4 /* ScrollViews2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViews2UITests.swift; sourceTree = "<group>"; };
 		76EB0AA41BBEE30400F332E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76EB0AB11BBEE31B00F332E4 /* photo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo1.png; sourceTree = "<group>"; };
+		76EB0AB21BBEE31B00F332E4 /* photo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo2.png; sourceTree = "<group>"; };
+		76EB0AB31BBEE31B00F332E4 /* photo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo3.png; sourceTree = "<group>"; };
+		76EB0AB41BBEE31B00F332E4 /* photo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo4.png; sourceTree = "<group>"; };
+		76EB0AB51BBEE31B00F332E4 /* photo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo5.png; sourceTree = "<group>"; };
+		76EB0AB61BBEE31B00F332E4 /* slow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,7 @@
 				76EB0A961BBEE30400F332E4 /* ScrollViews2Tests */,
 				76EB0AA11BBEE30400F332E4 /* ScrollViews2UITests */,
 				76EB0A801BBEE30400F332E4 /* Products */,
+				76EB0AB01BBEE31B00F332E4 /* ScrollViewsResources 2 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +136,19 @@
 				76EB0AA41BBEE30400F332E4 /* Info.plist */,
 			);
 			path = ScrollViews2UITests;
+			sourceTree = "<group>";
+		};
+		76EB0AB01BBEE31B00F332E4 /* ScrollViewsResources 2 */ = {
+			isa = PBXGroup;
+			children = (
+				76EB0AB11BBEE31B00F332E4 /* photo1.png */,
+				76EB0AB21BBEE31B00F332E4 /* photo2.png */,
+				76EB0AB31BBEE31B00F332E4 /* photo3.png */,
+				76EB0AB41BBEE31B00F332E4 /* photo4.png */,
+				76EB0AB51BBEE31B00F332E4 /* photo5.png */,
+				76EB0AB61BBEE31B00F332E4 /* slow.png */,
+			);
+			path = "ScrollViewsResources 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,8 +254,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76EB0ABA1BBEE31B00F332E4 /* photo4.png in Resources */,
+				76EB0AB81BBEE31B00F332E4 /* photo2.png in Resources */,
+				76EB0ABC1BBEE31B00F332E4 /* slow.png in Resources */,
+				76EB0AB71BBEE31B00F332E4 /* photo1.png in Resources */,
 				76EB0A8D1BBEE30400F332E4 /* LaunchScreen.storyboard in Resources */,
+				76EB0ABB1BBEE31B00F332E4 /* photo5.png in Resources */,
 				76EB0A8A1BBEE30400F332E4 /* Assets.xcassets in Resources */,
+				76EB0AB91BBEE31B00F332E4 /* photo3.png in Resources */,
 				76EB0A881BBEE30400F332E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
