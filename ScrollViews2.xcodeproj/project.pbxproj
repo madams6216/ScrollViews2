@@ -20,6 +20,8 @@
 		76EB0ABA1BBEE31B00F332E4 /* photo4.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EB0AB41BBEE31B00F332E4 /* photo4.png */; settings = {ASSET_TAGS = (); }; };
 		76EB0ABB1BBEE31B00F332E4 /* photo5.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EB0AB51BBEE31B00F332E4 /* photo5.png */; settings = {ASSET_TAGS = (); }; };
 		76EB0ABC1BBEE31B00F332E4 /* slow.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EB0AB61BBEE31B00F332E4 /* slow.png */; settings = {ASSET_TAGS = (); }; };
+		76EB0ABF1BBEF0FE00F332E4 /* CustomScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EB0ABD1BBEF0FE00F332E4 /* CustomScrollViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		76EB0AC01BBEF0FE00F332E4 /* CustomScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76EB0ABE1BBEF0FE00F332E4 /* CustomScrollViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		76EB0AB41BBEE31B00F332E4 /* photo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo4.png; sourceTree = "<group>"; };
 		76EB0AB51BBEE31B00F332E4 /* photo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo5.png; sourceTree = "<group>"; };
 		76EB0AB61BBEE31B00F332E4 /* slow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slow.png; sourceTree = "<group>"; };
+		76EB0ABD1BBEF0FE00F332E4 /* CustomScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomScrollViewController.swift; sourceTree = "<group>"; };
+		76EB0ABE1BBEF0FE00F332E4 /* CustomScrollViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomScrollViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 			children = (
 				76EB0A821BBEE30400F332E4 /* AppDelegate.swift */,
 				76EB0A841BBEE30400F332E4 /* ViewController.swift */,
+				76EB0ABD1BBEF0FE00F332E4 /* CustomScrollViewController.swift */,
+				76EB0ABE1BBEF0FE00F332E4 /* CustomScrollViewController.xib */,
 				76EB0A861BBEE30400F332E4 /* Main.storyboard */,
 				76EB0A891BBEE30400F332E4 /* Assets.xcassets */,
 				76EB0A8B1BBEE30400F332E4 /* LaunchScreen.storyboard */,
@@ -254,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76EB0AC01BBEF0FE00F332E4 /* CustomScrollViewController.xib in Resources */,
 				76EB0ABA1BBEE31B00F332E4 /* photo4.png in Resources */,
 				76EB0AB81BBEE31B00F332E4 /* photo2.png in Resources */,
 				76EB0ABC1BBEE31B00F332E4 /* slow.png in Resources */,
@@ -289,6 +296,7 @@
 			files = (
 				76EB0A851BBEE30400F332E4 /* ViewController.swift in Sources */,
 				76EB0A831BBEE30400F332E4 /* AppDelegate.swift in Sources */,
+				76EB0ABF1BBEF0FE00F332E4 /* CustomScrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
