@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="VCi-4P-Inj">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--Table View Controller-->
@@ -55,15 +56,15 @@
                                             <segue destination="zMM-Hf-cLY" kind="push" id="mIr-yl-TUy"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="Thf-6c-NUF" style="IBUITableViewCellStyleDefault" id="Ikd-np-u3M">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Thf-6c-NUF" style="IBUITableViewCellStyleDefault" id="Ikd-np-u3M">
                                         <rect key="frame" x="0.0" y="152" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ikd-np-u3M" id="u2c-iG-SpL">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="  Paged" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Thf-6c-NUF">
-                                                    <rect key="frame" x="15" y="0.0" width="290" height="43"/>
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -71,16 +72,19 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="qwD-r9-xV4" kind="push" id="odt-OI-InO"/>
+                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="BjA-pO-0e5" style="IBUITableViewCellStyleDefault" id="l8w-np-cn3">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="BjA-pO-0e5" style="IBUITableViewCellStyleDefault" id="l8w-np-cn3">
                                         <rect key="frame" x="0.0" y="196" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="l8w-np-cn3" id="QPh-9y-bDC">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="  Paged with peeking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BjA-pO-0e5">
-                                                    <rect key="frame" x="15" y="0.0" width="290" height="43"/>
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -88,6 +92,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="1Ki-cv-MOl" kind="push" id="M8y-d2-gBi"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -101,31 +108,36 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lWi-Q7-X2G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="30" y="174"/>
+            <point key="canvasLocation" x="34" y="174"/>
         </scene>
         <!--Custom Scroll View Controller-->
         <scene sceneID="4OK-XA-rYF">
             <objects>
                 <viewController id="zMM-Hf-cLY" customClass="CustomScrollViewController" customModule="ScrollViews2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="oqU-gT-SUf"/>
-                        <viewControllerLayoutGuide type="bottom" id="fTL-AL-hRp"/>
+                        <viewControllerLayoutGuide type="top" id="ic4-pz-qeX"/>
+                        <viewControllerLayoutGuide type="bottom" id="oVZ-0T-Cgt"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="btK-xq-jfx">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cdJ-6e-wX7">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cdJ-6e-wX7">
                                 <rect key="frame" x="0.0" y="68" width="320" height="500"/>
+                                <subviews>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="bQ2-KT-kKL">
+                                        <rect key="frame" x="8" y="455" width="304" height="37"/>
+                                    </pageControl>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ddJ-dI-1cI">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="485"/>
+                                    </scrollView>
+                                </subviews>
                                 <connections>
                                     <outlet property="delegate" destination="zMM-Hf-cLY" id="D3C-lc-4J7"/>
                                 </connections>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="cdJ-6e-wX7" firstAttribute="width" secondItem="btK-xq-jfx" secondAttribute="width" id="Nau-X4-1r9"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="IHF-nW-Mad"/>
                     <connections>
@@ -136,13 +148,91 @@
             </objects>
             <point key="canvasLocation" x="507" y="481"/>
         </scene>
+        <!--Peek Paged Scroll View Controller-->
+        <scene sceneID="YYN-oL-QMK">
+            <objects>
+                <viewController id="1Ki-cv-MOl" customClass="PeekPagedScrollViewController" customModule="ScrollViews2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Znw-Ju-Cyd"/>
+                        <viewControllerLayoutGuide type="bottom" id="Uvd-5p-Jia"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yvx-Kz-mwH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9JY-BX-0PZ">
+                                <rect key="frame" x="14" y="87" width="292" height="425"/>
+                                <subviews>
+                                    <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="386" verticalHuggingPriority="386" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xzc-ZF-fLN">
+                                        <rect key="frame" x="26" y="5" width="240" height="312"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="240" id="mLl-am-7qX"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="delegate" destination="1Ki-cv-MOl" id="DPe-Ue-7g5"/>
+                                        </connections>
+                                    </scrollView>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="izP-po-OEe">
+                                        <rect key="frame" x="-6" y="388" width="304" height="37"/>
+                                    </pageControl>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="izP-po-OEe" secondAttribute="height" multiplier="320:37" id="h2S-yG-Nco"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="vl1-Ea-YZN"/>
+                    <connections>
+                        <outlet property="PeekPageScrollView" destination="9JY-BX-0PZ" id="9X6-DI-YZx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6yu-ps-OoM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="861" y="481"/>
+        </scene>
+        <!--Paged Scroll View Controller-->
+        <scene sceneID="6hX-nr-tKO">
+            <objects>
+                <viewController id="qwD-r9-xV4" customClass="PagedScrollViewController" customModule="ScrollViews2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="spz-dK-RRL"/>
+                        <viewControllerLayoutGuide type="bottom" id="1fx-Hh-aK3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4u8-a7-US4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qeL-pM-Oeu">
+                                <rect key="frame" x="0.0" y="72" width="320" height="442"/>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="gXb-qV-rPc">
+                                <rect key="frame" x="0.0" y="522" width="311" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="gXb-qV-rPc" secondAttribute="height" multiplier="39:37" id="hDT-6O-7g4"/>
+                                </constraints>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Kbg-eJ-XRj"/>
+                    <connections>
+                        <outlet property="PageScrollView" destination="4u8-a7-US4" id="02Z-Gn-gYy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hNo-IK-Z6b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="861" y="-191"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="lhN-ly-jUS">
             <objects>
                 <viewController id="S8p-vR-5Pv" customClass="ViewController" customModule="ScrollViews2" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="QTm-4h-qCL"/>
-                        <viewControllerLayoutGuide type="bottom" id="Zfe-Hi-Ak3"/>
+                        <viewControllerLayoutGuide type="top" id="Egu-pN-R2S"/>
+                        <viewControllerLayoutGuide type="bottom" id="QnH-sa-Zll"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="5EN-1f-5qm">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>

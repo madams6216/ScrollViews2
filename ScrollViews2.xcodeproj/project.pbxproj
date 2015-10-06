@@ -22,6 +22,10 @@
 		76EB0ABC1BBEE31B00F332E4 /* slow.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EB0AB61BBEE31B00F332E4 /* slow.png */; settings = {ASSET_TAGS = (); }; };
 		76EB0ABF1BBEF0FE00F332E4 /* CustomScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EB0ABD1BBEF0FE00F332E4 /* CustomScrollViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		76EB0AC01BBEF0FE00F332E4 /* CustomScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76EB0ABE1BBEF0FE00F332E4 /* CustomScrollViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		76EB0F8F1BC2C10100F332E4 /* PagedScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EB0F8D1BC2C10100F332E4 /* PagedScrollViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		76EB0F901BC2C10100F332E4 /* PagedScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76EB0F8E1BC2C10100F332E4 /* PagedScrollView.xib */; settings = {ASSET_TAGS = (); }; };
+		76EB0F931BC2E86600F332E4 /* PeekPagedScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EB0F911BC2E86600F332E4 /* PeekPagedScrollViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		76EB0F941BC2E86600F332E4 /* PeekPagedScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76EB0F921BC2E86600F332E4 /* PeekPagedScrollViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,10 @@
 		76EB0AB61BBEE31B00F332E4 /* slow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slow.png; sourceTree = "<group>"; };
 		76EB0ABD1BBEF0FE00F332E4 /* CustomScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomScrollViewController.swift; sourceTree = "<group>"; };
 		76EB0ABE1BBEF0FE00F332E4 /* CustomScrollViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomScrollViewController.xib; sourceTree = "<group>"; };
+		76EB0F8D1BC2C10100F332E4 /* PagedScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagedScrollViewController.swift; sourceTree = "<group>"; };
+		76EB0F8E1BC2C10100F332E4 /* PagedScrollView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PagedScrollView.xib; sourceTree = "<group>"; };
+		76EB0F911BC2E86600F332E4 /* PeekPagedScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeekPagedScrollViewController.swift; sourceTree = "<group>"; };
+		76EB0F921BC2E86600F332E4 /* PeekPagedScrollViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PeekPagedScrollViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +101,10 @@
 		76EB0A761BBEE30400F332E4 = {
 			isa = PBXGroup;
 			children = (
+				76EB0F8D1BC2C10100F332E4 /* PagedScrollViewController.swift */,
+				76EB0F911BC2E86600F332E4 /* PeekPagedScrollViewController.swift */,
+				76EB0F921BC2E86600F332E4 /* PeekPagedScrollViewController.xib */,
+				76EB0F8E1BC2C10100F332E4 /* PagedScrollView.xib */,
 				76EB0A811BBEE30400F332E4 /* ScrollViews2 */,
 				76EB0A961BBEE30400F332E4 /* ScrollViews2Tests */,
 				76EB0AA11BBEE30400F332E4 /* ScrollViews2UITests */,
@@ -266,9 +278,11 @@
 				76EB0ABC1BBEE31B00F332E4 /* slow.png in Resources */,
 				76EB0AB71BBEE31B00F332E4 /* photo1.png in Resources */,
 				76EB0A8D1BBEE30400F332E4 /* LaunchScreen.storyboard in Resources */,
+				76EB0F941BC2E86600F332E4 /* PeekPagedScrollViewController.xib in Resources */,
 				76EB0ABB1BBEE31B00F332E4 /* photo5.png in Resources */,
 				76EB0A8A1BBEE30400F332E4 /* Assets.xcassets in Resources */,
 				76EB0AB91BBEE31B00F332E4 /* photo3.png in Resources */,
+				76EB0F901BC2C10100F332E4 /* PagedScrollView.xib in Resources */,
 				76EB0A881BBEE30400F332E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +311,8 @@
 				76EB0A851BBEE30400F332E4 /* ViewController.swift in Sources */,
 				76EB0A831BBEE30400F332E4 /* AppDelegate.swift in Sources */,
 				76EB0ABF1BBEF0FE00F332E4 /* CustomScrollViewController.swift in Sources */,
+				76EB0F931BC2E86600F332E4 /* PeekPagedScrollViewController.swift in Sources */,
+				76EB0F8F1BC2C10100F332E4 /* PagedScrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +537,7 @@
 				76EB0AA91BBEE30400F332E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76EB0AAA1BBEE30400F332E4 /* Build configuration list for PBXNativeTarget "ScrollViews2Tests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +546,7 @@
 				76EB0AAC1BBEE30400F332E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76EB0AAD1BBEE30400F332E4 /* Build configuration list for PBXNativeTarget "ScrollViews2UITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +555,7 @@
 				76EB0AAF1BBEE30400F332E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
